@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.POMFrameWork.loginPageTest.LoginPage_TestCases">
+      <class name="com.test.automation.POMFrameWork.loginPageTest.LoginWithMultipleUsers">
         <methods>
-          <include name="setUp"/>
-          <include name="end"/>
-          <include name="loginWithInvalidCredentisls"/>
+          <include name="testa" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.test.automation.POMFrameWork.loginPageTest.LoginPage_TestCases -->
+      </class> <!-- com.test.automation.POMFrameWork.loginPageTest.LoginWithMultipleUsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

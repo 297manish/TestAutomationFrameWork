@@ -1,5 +1,7 @@
 package com.test.automation.POMFrameWork.loginPageTest;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -35,11 +37,12 @@ public class LoginPage_TestCases extends TestBase {
 	}
 	
 	@Test
-	public void loginWithInvalidCredentisls(){
+	public void loginWithInvalidCredentisls() throws IOException{
 		log.info("starting loginWithInvalidCredentisls test");
 		hpo.clickOnSignInButton();
 		lpo.loginToApplication("test@gmail.com", "12345");
 		Assert.assertEquals(lpo.AuthenticationFailedText(), "Authentication failed.");
 		log.info("finish loginWithInvalidCredentisls test");
+		getScreenShot("loginWithInvalidCredentisls");
 	}
 }

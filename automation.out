@@ -9,3 +9,14 @@
 2018-03-20 17:30:20 INFO  LoginPageObjects:51 - error message is Authentication failed.
 2018-03-20 17:30:20 INFO  LoginPage_TestCases:43 - finish loginWithInvalidCredentisls test
 2018-03-20 17:30:20 INFO  LoginPage_TestCases:33 - closing browser
+2018-03-22 19:58:04 INFO  TestBase:38 - applying implicit wait
+2018-03-22 19:58:04 INFO  TestBase:43 - navigating to http://automationpractice.com/index.php
+2018-03-22 19:58:14 INFO  LoginPage_TestCases:41 - starting loginWithInvalidCredentisls test
+2018-03-22 19:58:17 INFO  LoginPageObjects:33 - clearing email address field
+2018-03-22 19:58:17 INFO  LoginPageObjects:35 - entered email address is test@gmail.comand object is [[ChromeDriver: chrome on XP (ce86640060768d5dcf4bb619fd2b4163)] -> xpath: //*[@id='email']]
+2018-03-22 19:58:17 INFO  LoginPageObjects:40 - clearing password field
+2018-03-22 19:58:17 INFO  LoginPageObjects:42 - entered password is 12345and the object is [[ChromeDriver: chrome on XP (ce86640060768d5dcf4bb619fd2b4163)] -> xpath: //*[@id='passwd']]
+2018-03-22 19:58:19 INFO  LoginPageObjects:47 - clicked on sign in button and the object is [[ChromeDriver: chrome on XP (ce86640060768d5dcf4bb619fd2b4163)] -> xpath: //*[@id='SubmitLogin']]
+2018-03-22 19:58:19 INFO  LoginPageObjects:51 - error message is Authentication failed.
+2018-03-22 19:58:19 INFO  LoginPage_TestCases:45 - finish loginWithInvalidCredentisls test
+2018-03-22 19:58:19 INFO  LoginPage_TestCases:35 - closing browser
